@@ -7,7 +7,6 @@ input.addEventListener("keyup", e => {
   if(e.key === "Enter")
   {
     fetchRecipesByArea(input.value);
-    input.value = "";
   }
 })
 
